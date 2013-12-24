@@ -1,9 +1,0 @@
-production:
-  mindvalley:
-    consumer_key: BAbfiEvXHTFkx27Tc8lN7wy3jv237qh7OrSa40dU
-    consumer_secret: HzElbL77SpqBbnsVxDWFIkaPp5rInEnw72M0Y21S
-
-development:
-  mindvalley:
-    consumer_key: BAbfiEvXHTFkx27Tc8lN7wy3jv237qh7OrSa40dU
-    consumer_secret: HzElbL77SpqBbnsVxDWFIkaPp5rInEnw72M0Y21S
