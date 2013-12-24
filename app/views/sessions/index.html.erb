@@ -1,0 +1,12 @@
+<h1>its suppose to be a login page</h1>
+
+  <% if current_user %>
+    Welcome <strong><%= current_user.name %></strong>!
+    <%= link_to "Sign out", signout_path, id: "sign_out" %>
+  <% else %>
+    <%= link_to "Sign in", "/auth/mindvalley", id: "sign_in" %>
+  <% end %>
+
+  <a href="/auth/mindvalley" rel="nofollow">
+    <span class="btn btn-primary">Sign in</span>            
+  </a>
